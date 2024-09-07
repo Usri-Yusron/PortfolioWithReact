@@ -29,7 +29,7 @@ import {
     return (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="outline" className="bg-white">Hubungi saya</Button>
+          <Button variant="outline" className="bg-white dark:text-black">Hubungi saya</Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56 bg-white">
           <DropdownMenuLabel>My Social Media Account</DropdownMenuLabel>

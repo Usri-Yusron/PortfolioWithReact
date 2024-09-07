@@ -1,9 +1,9 @@
-import GradualSpacing from "../ui/gradual-spacing";
 import IconCloud from "../ui/interactive-icon";
 
 const slugs = [
   "php",
   "laravel",
+  "python",
   "sql",
   "tailwind",
   "bootstrap",
@@ -28,10 +28,7 @@ const slugs = [
 
 export function InteractiveIcons() {
   return (
-    <div className="container mx-auto px-4" >
-      <GradualSpacing 
-        text="technologies that I can use"
-      />
+    <div >
       <IconCloud iconSlugs={slugs} />
     </div>
   );
