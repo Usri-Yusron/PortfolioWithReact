@@ -31,7 +31,7 @@ import {
         <DropdownMenuTrigger asChild>
           <Button variant="outline" className="bg-white dark:text-black">Hubungi saya</Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56 bg-white">
+        <DropdownMenuContent className="w-56 bg-white dark:text-black">
           <DropdownMenuLabel>My Social Media Account</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuSeparator />  
